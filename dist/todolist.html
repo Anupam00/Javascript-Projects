@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TODO LIST</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body>
+<div class="flex-inline justify-center items-center  mx-auto w-[650px] h-full bg-red-100 rounded-xl mt-6">
+  <div class="flex  justify-center w-full h-auto text-orange-600 font-bold text-xl font-sans m-3 p-2">
+    <div class=" mx-auto ">  To-Do List</div>
+    <div ><p id ="time" class=" text-orange-600 text-sm float-right mr-12"> </p></div>
+  </div>
+
+  <div>
+    <ul id ="taskList" class="m-4 p-2 flex-wrap justify-center items-center bg-green-300 h-auto rounded-xl  overflow-clip hover:border-2 border-amber-200 " >
+    </ul>
+  </div>
+
+  <div class="flex justify-center">
+    <input type = "text" id="noteArea" class="w-[600px] h-[50px] border-2 bg-blue-300 text-slate-800 rounded-xl overflow-clip" >
+  </div>
+
+  <div class=" flex justify-center mx-auto">
+  <button id = "taskBtn" class="m-6 border-2 bg-sky-400 rounded-xl p-2 hover:bg-orange-300 hover:text-blue-600 hover:font-bold"> ADD Task </button>
+  </div>
+
+</div>
+<script type="text/javascript" src="todolist.js"></script>
+</body>
+</html>

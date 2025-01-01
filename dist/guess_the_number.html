@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+<div class="block w-[300px] h-[200px]  mx-auto bg-amber-200 rounded-2xl">
+  <div class=" block justify-center">
+    <label for="guess" class=" flex justify-center mx-auto m-5 pt-3 font-bold font-serif">Guess the Number</label>
+    <input type="text" id="guess" class=" flex justify-center  items-center mx-auto m-5 rounded-xl w-[200px] h-[40px]">
+  </div>
+    <div class = "flex">
+        <button class="flex justify-center mx-auto  border-2 rounded-2xl p-1  text-indigo-50 border-black-400 bg-sky-400 hover:bg-green-400 hover:text-indigo-500" id="btnReset">Reset Number</button>
+        <button class= " flex justify-center mx-auto border-2 rounded-2xl p-1  text-indigo-50 border-black-400 bg-sky-400 hover:bg-green-400 hover:text-indigo-500" id="btn" >Submit Guess</button>
+    </div>
+    <div class="flex justify-center mx-auto m-5">
+        <p id="result" class="text-green-500 font-semibold"></p>
+    </div>
+</div>
+<script type="text/javascript" src="guess_the_number.js"></script>
+</body>
+</html>

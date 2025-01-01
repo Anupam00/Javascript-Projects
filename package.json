@@ -1,0 +1,13 @@
+{
+  "name": "JS_projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/compound_interest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
