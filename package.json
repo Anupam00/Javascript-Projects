@@ -9,5 +9,8 @@
   "private": true,
   "devDependencies": {
     "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
   }
 }
